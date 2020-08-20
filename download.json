@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+
+{
+  "app": {
+    "version": "no-upgrade",
+    "versionCode": "1",
+    "link": "https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/app-debug.apk",
+    "note": "https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/notes.md"
+  },
+  "magisk": {
+    "version": "force-upgrade",
+    "versionCode": "99999",
+    "link": "http://127.0.0.1:8080/magisk-debug.zip",
+    "note": "https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/notes.md",
+    "md5": "85984518d5cd413b118132818f999b0d"
+  },
+  "uninstaller": {
+    "link": "https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/magisk-uninstaller.zip"
+  },
+  "stub": {
+    "versionCode": "9",
+    "link": "https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/stub-release.apk"
+  }
+}
